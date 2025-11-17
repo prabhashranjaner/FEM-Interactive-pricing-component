@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color: hsl(225, 20%, 60%);
+  background-image: url(/images/pattern-circles.svg),
+    url(/images/bg-pattern.svg);
+  background-color: hsl(230, 100%, 99%);
+  background-repeat: no-repeat;
+  background-position: 50% 40px, top;
+  background-size: 30%, 100% 50%;
+}
+
+#root {
+  width: 100%;
+}
