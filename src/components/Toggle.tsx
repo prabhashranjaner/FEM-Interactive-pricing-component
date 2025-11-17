@@ -20,8 +20,16 @@ const Tray = styled.div`
   border-radius: 100px;
   transition: all 0.3s;
 
+  &:hover {
+    background-color: hsl(174, 77%, 80%);
+  }
+
   &.active {
     background-color: hsl(174, 77%, 80%);
+
+    &:hover {
+      background-color: hsl(223, 50%, 87%);
+    }
   }
 
   &::after {

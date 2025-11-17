@@ -48,6 +48,10 @@ const SliderHandle = styled.span`
     width: 30px;
   }
 
+  &:hover {
+    box-shadow: 0 0 30px hsla(174, 86%, 45%, 50%);
+  }
+
   @media screen and (min-width: 768px) {
     width: 60px;
     height: 60px;

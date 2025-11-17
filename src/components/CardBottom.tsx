@@ -66,7 +66,7 @@ const Button = styled.button`
   }
 
   &:hover {
-    filter: brightness(120%);
+    filter: brightness(150%);
   }
 
   @media screen and (min-width: 768px) {
