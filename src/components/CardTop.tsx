@@ -22,7 +22,7 @@ const StyledCardTop = styled.div`
 
   @media screen and (min-width: 768px) {
     padding-inline: 3rem;
-    padding-block: 3rem;
+    padding-block: 2rem;
     gap: 2rem;
   }
 `;

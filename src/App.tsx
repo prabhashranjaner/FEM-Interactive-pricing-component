@@ -14,7 +14,7 @@ const Header = styled.div`
   text-align: center;
   margin-top: 3rem;
   @media screen and (min-width: 768px) {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 `;
 
@@ -24,6 +24,7 @@ const Title = styled.h1`
 
   @media screen and (min-width: 768px) {
     font-size: 32px;
+    line-height: 1;
   }
 `;
 
@@ -40,7 +41,7 @@ const CardWrapper = styled.div`
   margin-top: 2.5rem;
 
   @media screen and (min-width: 768px) {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 `;
 

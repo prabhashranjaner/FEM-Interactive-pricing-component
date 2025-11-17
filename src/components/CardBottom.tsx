@@ -9,7 +9,7 @@ const StyledCardBottom = styled.div`
   @media screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.5rem 3rem;
+    padding: 1rem 3rem;
   }
 `;
 
@@ -58,6 +58,7 @@ const Button = styled.button`
   cursor: pointer;
   border-radius: 100px;
   transition: all 0.3s;
+  color: white;
 
   @media screen and (min-width: 768px) {
     font-size: 18px;
@@ -78,15 +79,15 @@ const CardBottom = () => {
     <StyledCardBottom>
       <FeatureList>
         <FeatureItem>
-          <img src="/public/images/icon-check.svg" alt="check" />
+          <img src="/images/icon-check.svg" alt="check" />
           <span>Unlimited websites</span>
         </FeatureItem>
         <FeatureItem>
-          <img src="/public/images/icon-check.svg" alt="check" />
+          <img src="/images/icon-check.svg" alt="check" />
           <span>100% data ownership</span>
         </FeatureItem>
         <FeatureItem>
-          <img src="/public/images/icon-check.svg" alt="check" />
+          <img src="/images/icon-check.svg" alt="check" />
           <span>Email reports</span>
         </FeatureItem>
       </FeatureList>
